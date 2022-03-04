@@ -66,7 +66,7 @@ const UpdatePlace = () => {
     value={identifiedPlace.description} 
     valid={true}  />
 
-    <Button type="submit" disacled={true}>Update Place</Button>
+    <Button type="submit" disabled={true}>Update Place</Button>
     </form>
     
     
