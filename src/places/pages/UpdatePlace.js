@@ -46,11 +46,11 @@ const UpdatePlace = () => {
             </div>
         )
     }
-    return <form>
+    return <form className="place-form">
      <Input id="title" 
      elements="input" 
      type="text" 
-     label="title" 
+     label="Title" 
      validators={[VALIDATOR_REQUIRE()]}
     errorText="Please enter a valid title."
     onInput={() => {}}
